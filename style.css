@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+#inicio {
+   background-color: chocolate;
+}
+
+#logo {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    text-align: center;
+}
+li{
+    display: inline-block;
+    border:solid;
+    padding: 10px 165px;
+    background-color: rgb(219, 144, 91);
+}
+.menu:hover {
+    font-size: 1.1em;
+    -webkit-text-stroke: 8px rgba(236, 150, 21, 0.712); 
+}
+
+.menu {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: rgb(219, 144, 91);
+}
+
+nav {
+    background-color: rgb(153, 74, 17);
+}
+
+#corpoformulario {
+     background-color: rgb(153, 74, 17);
+}
+
+footer {
+    background-color: rgb(219, 144, 91);
+    height: 50px
+}
+
+#copyright{
+    background-color: rgb(219, 144, 91);
+}
+
+#rodape{ 
+    background-color: rgb(219, 144, 91);
+}
+#image_fixed {
+    position: fixed;
+    bottom: 1vh;
+    right: 1vw;
+    width: 6vw;
+ }
+
+ main {
+    background-color: rgb(153, 74, 17);
+  }
+.formulariocontato {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 3vh;
+    padding: 1vh;
+    text-align: center;
+}
+form {
+    text-align: center;
+    padding: 1vh 1vw;
+    width:450px;
+    background-color: rgb(224, 223, 221);
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    border-style: solid;
+}
+
+.formulariocontato input,
+.formulariocontato select,
+.formulariocontato textarea {
+    width: 100%;
+    padding: 1vh 1vw;
+    margin-bottom: 2vh;
+    border: 1px solid darkslategray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    width: 100px;
+    height: 30px;
+}
+button:hover, #topo:hover {
+    background: rgba(236, 150, 21, 0.712);
+}
+
+.container {
+	display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    margin-left: 110px;
+   
+}
+
+#esquerda{
+    float:left;
+    margin-left: 180px;
+    text-align: center;
+}
+
+#padaria {
+    float: right;
+    text-align: center;
+    margin-right: 180px;
+}
+
+#fotopadaria, #cupcake, #paoqueijo {
+    border-style: solid;
+}
+#corpo {
+    height: 900px;
+    background-color: rgb(153, 74, 17);
+}
+
+#acesse {
+    margin-top: 500px;
+}
+#topo {
+    margin-left: 340px;
+}
+
+#topo:hover, #image_fixed:hover {
+    width : 90px;
+    filter: brightness(300%) drop-shadow(0px 0px 30px #000000);
+    -webkit-animation: smallToBig 300ms alternate infinite ease;
+    -moz-animation: smallToBig 300ms alternate infinite ease;
+}
+@-webkit-keyframes smallToBig{from {-webkit-transform: scale(1);}to {-webkit-transform: scale(1.1);}}
+@-moz-keyframes smallToBig{from {-moz-transform: scale(1);}to {-moz-transform: scale(1.1);}}
+
+#paoqueijo:hover {
+    width: 380px;
+    height: 280px;
+}
+
+#cupcake:hover {
+    width: 380px;
+}
+
+#libras {
+     float: right;
+}
